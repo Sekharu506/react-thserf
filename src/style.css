@@ -1,0 +1,14 @@
+.frontpage {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+
+  margin-left: 20px;
+  width: 20%;
+  padding: 15px;
+}
+.add {
+  color: white;
+  background-color: #378de5;
+  height: 30px;
+  width: 70px;
+}
