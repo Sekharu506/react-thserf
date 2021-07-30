@@ -1,12 +1,14 @@
-import React, { Component } from 'react';
 import Header from '../Components/header.jsx';
 import Books from '../Components/books.jsx';
-const Web = () => {
+import React, { useContext } from 'react';
+
+export const Web = () => {
   return (
     <div>
-      <Header />;
+      <Header />
       <Books />
     </div>
   );
 };
+
 export default Web;

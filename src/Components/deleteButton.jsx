@@ -1,23 +1,22 @@
-import React, { Component, useContext } from 'react';
+import React, { useContext } from 'react';
 import '../style.css';
 import { btnContext } from '../Components/context.jsx';
 
-const Add = props => {
+const Delete = props => {
   const { cartState, setCart } = useContext(btnContext);
-  let index = props.index;
-
+  const index = props.index;
   return (
     <div>
       <button
         onClick={() => {
-          cartState[index]++;
+          if (cartState[index] != 0) cartState[index]--;
           setCart({ ...cartState });
         }}
-        className="add"
+        className="delete"
       >
-        Add
+        Delete
       </button>
     </div>
   );
 };
-export default Add;
+export default Delete;

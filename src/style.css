@@ -1,4 +1,4 @@
-.frontpage {
+.image {
   border: 1px solid #ddd;
   border-radius: 4px;
 
@@ -11,4 +11,14 @@
   background-color: #378de5;
   height: 30px;
   width: 70px;
+}
+.delete {
+  color: white;
+  background-color: #999900;
+  height: 30px;
+  width: 70px;
+}
+.btn {
+  display: flex;
+  margin: 5px;
 }

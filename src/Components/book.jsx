@@ -8,9 +8,7 @@ export default class Book extends React.Component {
       <div>
         <br />
 
-        <img className="frontpage" src={this.props.l} alt="book1" />
-
-        
+        <img className="image" src={this.props.l} alt="book1" />
       </div>
     );
   }
